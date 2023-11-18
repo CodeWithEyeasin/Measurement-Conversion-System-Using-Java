@@ -131,7 +131,7 @@ public class MeasurementConversion extends Login {
 
     void MillimeterToOther()
     {
-        System.out.println("Enter The Centimeter Value :");
+        System.out.println("Enter The Millimeter Value :");
         Length=input.nextInt();
         while (true)
         {

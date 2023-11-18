@@ -23,11 +23,7 @@ public class Main {
          else
          {
              System.out.println("Warning Your Password is Not Correct \"Program Terminate Within 5 Seconds\"");
-             for (int i=1;i<=5;i++)
-             {
-                 TimeUnit.SECONDS.sleep(1);
-
-             }
+             TimeUnit.SECONDS.sleep(5);
          }
 
     }
